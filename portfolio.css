@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+   
+   }
+   .toppage
+   {
+       min-height: 100vh;
+       width: 100%;
+       background-color: black;
+       background-position: center;
+       background-size: cover;
+       position: relative;
+   }
+   nav{
+   display: flex;
+   padding: 10% 0%;
+   padding-left: 50%;
+   
+   }
+   img
+   {
+       width: 250px; 
+       padding-block-start: 0%;
+       padding-top: 10%;
+       padding-left: 220px;
+       
+   }
+   .nav-link{
+       flex: 5;
+       text-align: center;
+   }
+   .nav-link ul  {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   
+   }
+   .nav-link li{
+       flex-grow: inherit;
+       padding-left: 50%;
+   }
+   .nav-link li a
+   {
+       display: block;
+       text-align: center;
+       padding: 30px;
+   
+   }
+   .nav-link ul li a {
+   
+       color: azure;
+       text-decoration: none;
+       font-size: 25px;
+       font-family: "verdana",sans-serif;
+   }
+   
+   .nav-link ul li ::after{
+   content: '';
+   width : 0%;
+   height: 2px;
+   background : white;
+   display: block;
+   margin: auto;
+   transition: 0.7s;
+   }
+   .nav-link ul li :hover::after{
+   
+       width: 100%;
+   }
+   .text-box
+{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top:  50%;
+    right:30%;
+  
+    text-align: center;
+
+}
+.text-box h1{
+    font-size: 65px;
+}
+.text-box p{
+    margin: 10px 0 20px;
+    font-size: 16px;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.text-box a{
+    color: azure;
+    width: 20%;
+    height: 15px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 10px;
+    transition: .5s;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+.text-box a:hover{
+    background: #fff;
+    color: black;
+}
+.text-box a ::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: grey;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.text-box a :hover ::after{
+    width: 100%;
+    
+}
+.text-box h6 {
+    font-size: 22px;
+    font-display: initial;
+    padding-left: 35px;
+}
+.text-box p{
+    font-size:20px;
+    font-display:inherit;
+}
+.project {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+p{
+    color:black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 20px;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.skill p{
+    color: azure;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.skill h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: azure;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.skill{
+    flex-basis: 31%;
+    background: black;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+.skill:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+   }
+.skill img{
+    width: 100%;
+    align-content: center;
+   }
+
+
